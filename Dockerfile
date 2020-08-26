@@ -9,7 +9,7 @@ WORKDIR stanford-corenlp-4.1.0
 
 RUN export CLASSPATH="`find . -name '*.jar'`"
 
-ENV JAVA_MAX_MEM 4g
+ENV JAVA_MAX_MEM 1g
 ENV PORT 9000
 EXPOSE $PORT
 
